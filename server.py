@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
+# just added a simple comment to see the changes
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
